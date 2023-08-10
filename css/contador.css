@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #060606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 20px;
+}
+
+.title-contador {
+    color: white;
+    font-size: 45px;
+}
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 170px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pantalla-contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2E2D2D;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    display: flex;
+    color: white;
+    background-color: #2E2D2D;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border: 1px solid white;
+}
+
+#restar:hover {
+    background-color: crimson;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#sumar:hover {
+    background-color: green;
+    transition-duration: 0.5s;
+}
+
+#mensajes {
+    border-radius: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    
+}

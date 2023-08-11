@@ -1,4 +1,4 @@
-// declaro las constantes que van a ser, la pantalla, los botones y la seccion de mensajes
+// declaro las constantes que van a ser la pantalla, los botones y la seccion de mensajes
 
 const pantalla = document.querySelector(".pantalla-contador")
 const botones = document.querySelectorAll(".btn")

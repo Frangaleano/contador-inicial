@@ -1,7 +1,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #060606;
+    background: rgb(77, 74, 75);
+    background: radial-gradient(circle, rgba(77, 74, 75, 1) 0%, rgba(0, 0, 0, 1) 75%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,13 +35,13 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #2E2D2D;
+    background: none;
     width: 100px;
     height: 100px;
     text-align: center;
     border-radius: 60px;
     padding: 10px;
-    font-size: 60px;
+    font-size: 90px;
 }
 
 .botones {
@@ -48,31 +49,40 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .btn {
     display: flex;
     color: white;
     background-color: #2E2D2D;
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
     align-items: center;
     justify-content: center;
     border-radius: 60px;
-    border: 1px solid white;
+}
+
+#restar {
+    border: 2px inset crimson;
+}
+
+#sumar {
+    border: 2px inset green;
 }
 
 #restar:hover {
     background-color: crimson;
     color: black;
-    transition-duration: 0.5s;
+    transition-duration: 0.6s;
+    border: none;
 }
 
 #sumar:hover {
     background-color: green;
-    transition-duration: 0.5s;
+    transition-duration: 0.6s;
+    border: none;
 }
 
 #mensajes {
@@ -83,5 +93,5 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 28px;
-    
+
 }
